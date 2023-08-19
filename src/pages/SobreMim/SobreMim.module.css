@@ -2,6 +2,15 @@
     max-width: 700px;
     margin: 50px auto;
 }
+
+.container h2 {
+    margin: 0;
+}
+
+.container h3{
+    margin-top: 0;
+}
+
 .links {
     display: flex;
     gap: 15px;
