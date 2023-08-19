@@ -1,0 +1,12 @@
+.container {
+    max-width: 700px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.contatos p {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}

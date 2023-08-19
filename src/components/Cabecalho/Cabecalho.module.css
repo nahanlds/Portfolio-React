@@ -1,0 +1,12 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links {
+    display: flex;
+    gap: 15px;
+}
+.nome {
+    color: rgb(39, 55, 77);
+}

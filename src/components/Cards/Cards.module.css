@@ -1,0 +1,19 @@
+.container {
+    width: 290px;
+    height: 150px;
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 0.3rem;
+    box-shadow: 0 10px 15px -2px #bdc2ca, 0 8px 10px -3px #bdc2ca;
+}
+.container p {
+    font-size: 1em;
+}
+
+.titulo {
+    margin: 0;
+}
+.container:hover{
+    border: 1px solid royalblue;
+    box-shadow: 0 10px 15px -2px royalblue, 0 8px 10px -3px royalblue;
+}

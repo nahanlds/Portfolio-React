@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ferramentas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 70px;
+}
+
+.card p {
+    margin: 0;
+}

@@ -1,0 +1,14 @@
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+}
+.links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.links li {
+    list-style: none;
+    font-size: 25px;
+}
