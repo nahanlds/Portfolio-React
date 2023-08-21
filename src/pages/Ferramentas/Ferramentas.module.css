@@ -12,6 +12,7 @@
 }
 .card {
     text-align: center;
+    padding: .4rem;
 }
 
 .card img {
@@ -20,4 +21,7 @@
 
 .card p {
     margin: 0;
+}
+.card:hover{
+    box-shadow:  0 10px 15px -2px rgb(155, 155, 155);
 }

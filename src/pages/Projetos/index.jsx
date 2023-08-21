@@ -19,7 +19,8 @@ export default function Projetos(){
                 projetos.length > 0 ? (
                     <section className={style.cards}>
                         {projetos.map((repo) => {
-                            return <Cards key={repo.id} url={repo.html_url} description={repo.description} name={repo.name}/>
+                            if(repo.homepage)
+                            return <Cards key={repo.id} url={repo.html_url} description={repo.description} name={repo.name} homePage={repo.homepage}/>
                         })}   
                     </section>
                 ) : (<p>Carregando...</p>)
