@@ -4,8 +4,9 @@ import SobreMim from './pages/SobreMim'
 import Projetos from './pages/Projetos'
 import Contatos from './pages/Contatos'
 import Ferramentas from './pages/Ferramentas'
+import NaoEncontrada from './pages/NaoEncontrada'
 
-function App() {
+function Routers() {
 
   return (
     <BrowserRouter>
@@ -15,10 +16,11 @@ function App() {
           <Route path='/projetos' element={<Projetos />}></Route>
           <Route path='/contatos' element={<Contatos />}></Route>
           <Route path='/ferramentas' element={<Ferramentas />}></Route>
+          <Route path='*' element={<NaoEncontrada />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
   )
 }
 
-export default App
+export default Routers
